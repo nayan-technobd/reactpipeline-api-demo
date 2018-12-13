@@ -18,7 +18,7 @@ class Gallery extends React.Component {
         <div id="gallery" className="tm-content-box">                        
             <div className="grid tm-gallery">
                 <figure className="effect-bubba">
-                    <img src="img/img-11-08.jpg" alt="Image 8" className="img-fluid" />
+                    <img src={require("../img/img-11-08.jpg")} alt="Image 8" className="img-fluid" />
                     <figcaption>
                         <h2>Light <span>Bridge</span></h2>
                         <p>Fusce faucibus metus in augue</p>
@@ -27,7 +27,7 @@ class Gallery extends React.Component {
                 </figure>
 
                 <figure className="effect-bubba">
-                    <img src="img/img-11-07.jpg" alt="Image 7" className="img-fluid" />
+                    <img src={require("../img/img-11-07.jpg")} alt="Image 7" className="img-fluid" />
                     <figcaption>
                         <h2>Glass <span>Tower</span></h2>
                         <p>Sed ut ipsum eu purus ullamcorper</p>
@@ -36,7 +36,7 @@ class Gallery extends React.Component {
                 </figure>
 
                 <figure className="effect-bubba">
-                    <img src="img/img-11-05.jpg" alt="Image 5" className="img-fluid" />
+                    <img src={require("../img/img-11-05.jpg")} alt="Image 5" className="img-fluid" />
                     <figcaption>
                         <h2>Jump <span>Higher</span></h2>
                         <p>Morbi fermentum eget libero sed</p>
@@ -45,7 +45,7 @@ class Gallery extends React.Component {
                 </figure>
 
                 <figure className="effect-bubba">
-                    <img src="img/img-11-03.jpg" alt="Image 3" className="img-fluid" />
+                    <img src={require("../img/img-11-03.jpg")} alt="Image 3" className="img-fluid" />
                     <figcaption>
                         <h2>Forest <span>Park</span></h2>
                         <p>Aenean rutrum enim a tellus suscipit</p>
@@ -54,7 +54,7 @@ class Gallery extends React.Component {
                 </figure>
 
                 <figure className="effect-bubba">
-                    <img src="img/img-11-02.jpg" alt="Image 2" className="img-fluid" />
+                    <img src={require("../img/img-11-02.jpg")} alt="Image 2" className="img-fluid" />
                     <figcaption>
                         <h2>Ice <span>Mountain</span></h2>
                         <p>Curabitur a ipsum eget eros sodales</p>
@@ -63,7 +63,7 @@ class Gallery extends React.Component {
                 </figure>
 
                 <figure className="effect-bubba">
-                    <img src="img/img-11-04.jpg" alt="Image 4" className="img-fluid" />
+                    <img src={require("../img/img-11-04.jpg")} alt="Image 4" className="img-fluid" />
                     <figcaption>
                         <h2>Green <span>Field</span></h2>
                         <p>Duis eget tortor et mauris tempus</p>

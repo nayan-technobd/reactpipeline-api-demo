@@ -6,7 +6,7 @@ const Services = () => {
         <div id="services" className="tm-content-box tm-gray-bg tm-services">
 
             <div className="tm-services-img-container">
-                <img src="img/450x900-01.jpg" alt="Green Field" className="img-fluid tm-services-img" />    
+                <img src={require("../img/450x900-01.jpg")} alt="Green Field" className="img-fluid tm-services-img" />    
             </div> 
                 
             <div className="tm-box-pad tm-services-description-container">

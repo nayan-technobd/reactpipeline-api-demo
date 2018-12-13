@@ -4,7 +4,7 @@ const Welcome = () => {
     document.title = "React Pipeline";
     return(
         <div className="tm-content-box tm-content-box-home">                        
-            <img src="img/1200x800-01.jpg" alt="Image 1" className="img-fluid tm-welcome-img" />                        
+            <img src={require("../img/1200x800-01.jpg")} alt="Image 1" className="img-fluid tm-welcome-img" />                        
             <div className="tm-welcome-boxes-container">
                 <div className="tm-welcome-box">
                     <div className="tm-welcome-text">

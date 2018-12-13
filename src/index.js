@@ -4,6 +4,9 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import * as serviceWorker from './serviceWorker';
 
+import './css/magnific-popup.css';
+import './css/templatemo-style.css';
+
 import $ from 'jquery'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
