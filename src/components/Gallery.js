@@ -22,7 +22,7 @@ class Gallery extends React.Component {
                     <figcaption>
                         <h2>Light <span>Bridge</span></h2>
                         <p>Fusce faucibus metus in augue</p>
-                        <a href="img/img-11-08.jpg">View more</a>
+                        <a href={require("../img/img-11-08.jpg")}>View more</a>
                     </figcaption>
                 </figure>
 
@@ -31,7 +31,7 @@ class Gallery extends React.Component {
                     <figcaption>
                         <h2>Glass <span>Tower</span></h2>
                         <p>Sed ut ipsum eu purus ullamcorper</p>
-                        <a href="img/img-11-07.jpg">View more</a>
+                        <a href={require("../img/img-11-07.jpg")}>View more</a>
                     </figcaption>
                 </figure>
 
@@ -40,7 +40,7 @@ class Gallery extends React.Component {
                     <figcaption>
                         <h2>Jump <span>Higher</span></h2>
                         <p>Morbi fermentum eget libero sed</p>
-                        <a href="img/img-11-05.jpg">View more</a>
+                        <a href={require("../img/img-11-05.jpg")}>View more</a>
                     </figcaption>
                 </figure>
 
@@ -49,7 +49,7 @@ class Gallery extends React.Component {
                     <figcaption>
                         <h2>Forest <span>Park</span></h2>
                         <p>Aenean rutrum enim a tellus suscipit</p>
-                        <a href="img/img-11-03.jpg">View more</a>
+                        <a href={require("../img/img-11-03.jpg")}>View more</a>
                     </figcaption>
                 </figure>
 
@@ -58,7 +58,7 @@ class Gallery extends React.Component {
                     <figcaption>
                         <h2>Ice <span>Mountain</span></h2>
                         <p>Curabitur a ipsum eget eros sodales</p>
-                        <a href="img/img-11-02.jpg">View more</a>
+                        <a href={require("../img/img-11-02.jpg")}>View more</a>
                     </figcaption>
                 </figure>
 
@@ -67,7 +67,7 @@ class Gallery extends React.Component {
                     <figcaption>
                         <h2>Green <span>Field</span></h2>
                         <p>Duis eget tortor et mauris tempus</p>
-                        <a href="img/img-11-04.jpg">View more</a>
+                        <a href={require("../img/img-11-04.jpg")}>View more</a>
                     </figcaption>
                 </figure>                                
             </div>

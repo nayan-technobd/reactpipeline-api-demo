@@ -36,7 +36,7 @@ class CreateProductComponent extends React.Component {
     // on mount, get all categories and store them in this component's state
     componentDidMount() {
         window.title = 'Create Product';
-        this.serverRequest = $.get("http://localhost/react/api/category/read.php", function (categories) {
+        this.serverRequest = $.get("http://192.168.50.59/react/api/category/read.php", function (categories) {
             this.setState({
                 categories: categories.records
             });
@@ -83,7 +83,7 @@ class CreateProductComponent extends React.Component {
             };
 
             // submit form data to api
-            // fetch('http://localhost/react/api/product/create.php', {
+            // fetch('http://192.168.50.59/react/api/product/create.php', {
             //     method: 'POST',
             //     mode: 'CORS',
             //     body: JSON.stringify(form_data),
@@ -106,7 +106,7 @@ class CreateProductComponent extends React.Component {
             // });
 
             $.ajax({
-                url: "http://localhost/react/api/product/create.php",
+                url: "http://192.168.50.59/react/api/product/create.php",
                 dataType: "json",
                 contentType: "application/json",
                 type: "POST",

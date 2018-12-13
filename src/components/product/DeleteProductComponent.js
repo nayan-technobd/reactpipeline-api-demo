@@ -21,7 +21,7 @@ class DeleteProductComponent extends React.Component {
 
         // submit form data to api
         $.ajax({
-            url: "http://localhost/react/api/product/delete.php",
+            url: "http://192.168.50.59/react/api/product/delete.php",
             type : "POST",
             contentType : 'application/json',
             data : JSON.stringify({'id' : productId}),

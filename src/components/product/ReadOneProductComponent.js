@@ -32,7 +32,7 @@ class ReadOneProductComponent extends React.Component {
 
         var productId = this.props.productId;
 
-        this.serverRequestProd = $.get("http://localhost/react/api/product/read_one.php?id=" + productId,
+        this.serverRequestProd = $.get("http://192.168.50.59/react/api/product/read_one.php?id=" + productId,
             function (product) {
                 this.setState({category_name: product.category_name});
                 this.setState({id: product.id});

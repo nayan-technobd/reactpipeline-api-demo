@@ -15,8 +15,8 @@ class ReadProductsComponent extends React.Component {
     state = {
         products: [],
         paging: [],
-        api_base_url: 'http://localhost/react/api',
-        api_url: 'http://localhost/react/api/product/read_paging.php'
+        api_base_url: 'http://192.168.50.59/react/api',
+        api_url: 'http://192.168.50.59/react/api/product/read_paging.php'
     };
 
     constructor(props) {

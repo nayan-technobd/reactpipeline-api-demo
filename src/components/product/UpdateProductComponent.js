@@ -40,7 +40,7 @@ class UpdateProductComponent extends React.Component {
     componentDidMount(){
 
         // read categories
-        this.serverRequestCat = $.get("http://localhost/react/api/category/read.php",
+        this.serverRequestCat = $.get("http://192.168.50.59/react/api/category/read.php",
             function (categories) {
                 this.setState({
                     categories: categories.records
@@ -49,7 +49,7 @@ class UpdateProductComponent extends React.Component {
 
         // read one product data
         var productId = this.props.productId;
-        this.serverRequestProd = $.get("http://localhost/react/api/product/read_one.php?id=" + productId,
+        this.serverRequestProd = $.get("http://192.168.50.59/react/api/product/read_one.php?id=" + productId,
             function (product) {
                 this.setState({selectedCategoryId: product.category_id});
                 this.setState({id: product.id});
@@ -101,7 +101,7 @@ onSave(e){
  
     // submit form data to api
         $.ajax({
-            url: "http://localhost/react/api/product/update.php",
+            url: "http://192.168.50.59/react/api/product/update.php",
             type : "POST",
             contentType : 'application/json',
             data : JSON.stringify(form_data),
